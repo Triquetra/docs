@@ -85,6 +85,17 @@ it with::
 
 Similarly there is also a ``syncthing-gui`` service.
 
+Microsoft Windows Defender Firewall (WDF)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The easiest way to set up WDF is to run syncthing manually while logged in. Windows Security should prompt 
+you about whether you want to allow Syncthing to connect. Allowing this connection should set up the necessary rules.
+
+If for some reason you need to manually create the app exclusion yourself in WDF, there are a couple of 
+settings to be aware of:
+
+- In the Advanced Tab, "Edge Traversal" should be set to "Defer to user."
+- In the Advanced Tab, selecting the "Public" (and perhaps "Domain") profile `will prevent direct connections <https://forum.syncthing.net/t/data-seems-to-be-copied-but-stopped-at-syncthing-0-windows-firewall/19874/2>`__.
+
 
 Remote Web GUI
 --------------

@@ -94,7 +94,8 @@ If for some reason you need to manually create the app exclusion yourself in WDF
 settings to be aware of:
 
 - In the Advanced Tab, "Edge Traversal" should be set to "Defer to user."
-- In the Advanced Tab, selecting the "Public" (and perhaps "Domain") profile `will prevent direct connections <https://forum.syncthing.net/t/data-seems-to-be-copied-but-stopped-at-syncthing-0-windows-firewall/19874/2>`__.
+- In the Advanced Tab, select only the "Private" profile. Selecting the "Public" (and perhaps "Domain") profile 
+`will prevent direct connections <https://forum.syncthing.net/t/data-seems-to-be-copied-but-stopped-at-syncthing-0-windows-firewall/19874/2>`__.
 
 
 Remote Web GUI
